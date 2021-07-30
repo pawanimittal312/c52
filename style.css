@@ -1,0 +1,65 @@
+h1 {
+    color: white;
+    padding-top:  40px;
+}
+
+.header{
+    background: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+p,h2{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+   margin: 20px;
+}
+.item{
+    position: relative;
+
+}
+.item p{
+position: absolute;
+bottom:100px;
+opacity:0;
+
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+body{
+    border : solid crimson;
+    background-color:#ffccdd
+
+}
+
+.link{
+    text-align: right;
+    margin-right: 40px;
+
+}
+a{
+    color:white;
+}
+a:link{
+    color:white;
+
+}
+a:hover{
+    color: goldenrod
+}
